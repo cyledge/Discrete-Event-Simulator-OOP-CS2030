@@ -1,4 +1,5 @@
 # Discrete-Event-Simulator(OOP) - Java
+This project serves as a practice on object-oriented programming. It should be the neatest programming project. Over 95% of the codes are written myself.
 -	There are n Human Servers with its own queue and k Self-Checkout Counter sharing one queue 
 -	Each server can serve one customer at a time.
 -	Human Servers are allowed to take occasional breaks. When a Human Server finishes serving a customer, there is a chance (p) that the server takes a rest for a certain amount of time which is random and only determined at the time it rests. During the break, the server does not serve the next waiting customer. Upon returning from the break, the server serves the next customer in the queue (if any) immediately.
@@ -10,6 +11,8 @@
     -	if all servers are serving customers, then the customer that just arrived scans the queues from 1 to n, joins the first queue that is not full (not necessarily the shortest) and waits at the end of the queue.
     -	if all servers are serving customers and all queues are full of waiting customers, then a new customer that arrives will just leaves.
 - If there is no waiting customer, then the server becomes idle again.
+
+To run the program, we run on Main.java.
 Sample input for $Main.java$:
 1st input: number of Human Servers, 2nd input: number of Self-Checkout Counters, 3rd input: max queue length, 4th input: probability that a Human Servers take rest
 Then, input a sequence of customers arrival time. (no constraint on the size) 
