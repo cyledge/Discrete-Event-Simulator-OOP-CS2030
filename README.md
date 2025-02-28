@@ -27,7 +27,9 @@ $ cat 1.in
 9.043361
 9.105379
 9.159630
-
+```
+Output:
+```
 $ cat 4.in | java Main
 0.000 1 arrives
 0.000 1 serves by 1
@@ -62,3 +64,4 @@ $ cat 4.in | java Main
 11.854 10 done serving by 1
 [0.169 10 0]
 ```
+[average wait time, no. of served customer, no. of unserved customer]
