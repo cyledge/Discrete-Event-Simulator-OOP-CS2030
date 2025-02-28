@@ -1,5 +1,5 @@
 # Discrete-Event-Simulator(OOP) - Java
-This project serves as a practice on object-oriented programming. It should be the neatest programming project. Over 95% of the codes are written myself.
+This project serves as a practice on object-oriented programming. It should be the neatest programming project. All of the codes are written myself.
 -	There are n Human Servers with its own queue and k Self-Checkout Counter sharing one queue 
 -	Each server can serve one customer at a time.
 -	Human Servers are allowed to take occasional breaks. When a Human Server finishes serving a customer, there is a chance (p) that the server takes a rest for a certain amount of time which is random and only determined at the time it rests. During the break, the server does not serve the next waiting customer. Upon returning from the break, the server serves the next customer in the queue (if any) immediately.
